@@ -1,2 +1,3 @@
 #!/usr/bin/env ruby
-/School/
+puts ARGV.join.scan(/School/).join
+
